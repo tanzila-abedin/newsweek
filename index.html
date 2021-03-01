@@ -24,9 +24,10 @@
   </head>
   <body>
     <!-- Navbar -->
+
     <nav>
-      <div class="nav-top navbar row navbar-expand-lg ">
-        <div class="left-section">
+      <div class="nav-top sticky-sm-top">
+        <div class="left-section ">
           <h5>Wed, Jan 20, 2021</h5>
         </div>
         <div class="middle-section">
@@ -37,35 +38,78 @@
             alt=""
           />
         </div>
-        <div class="right-section my-auto">
-          <a href="#" class="login">Login</a>
-          <button class="subscribe">
-            <a href="#">Subscribe  <i class="fas fa-chevron-right"></i></i> </a>
+
+        <div class="right-section ">
+          
+                    <i class="fas fa-user fa-lg "></i>
+          <a href="#" class="login " >Login</a>
+          <button class="subscribe " >
+            <a href="#" >Subscribe  </a>
           </button>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+          <button class="navbar-toggler " type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars fa-lg"></i>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">     
+              <ul class="navbar-nav nav-middle-links">
+              <li class="navbar-item"><a href="#" >U.S.</a></li>
+              <li class="navbar-item"><a href="#" >World</a></li>
+              <li class="navbar-item"><a href="#">Business</a></li>
+              <li class="navbar-item"><a href="#">Tech & Science</a></li>
+              <li class="navbar-item"><a href="#">Culture</a></li>
+              <li class="navbar-item"><a href="#">Newsgeek</a></li>
+              <li class="navbar-item"><a href="#">Sports</a></li>
+              <li class="navbar-item"><a href="#">Health debate</a></li>
+              <li class="navbar-item"><a href="#" >Vantage</a></li>
+              <a href="#" class="nav-item px-2 trending">Trending</a>
+              <li class="navbar-item "><a href="#" >Donald Trump</a></li>
+              <li class="navbar-item"> <a href="#" >Inaguration</a> </li>
+              <li class="navbar-item"> <a href="#" >Joe Biden</a> </li>
+              <li class="navbar-item"><a href="#" >Corovavirus</a></li>
+              <li class="navbar-item"><a href="#" >Stimulus package</a></li>
+              <li class="navbar-item"><a href="#" >Vaccine</a></li>
+              <li class="navbar-item"><a href="#" >Capitol Riots</a></li>
+             
+          </ul>
+          </div>
     </button>
         </div>
       </div>
-      <div class="nav-middle"></div>
-      <div class="nav-bottom"></div>
+      <div class="nav-middle" >
+              
+              <li class="navbar-item"><a href="#"  class="nav-link">U.S.</a></li>
+              <li class="navbar-item"><a href="#"  class="nav-link">World</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Business</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Tech & Science</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Culture</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Newsgeek</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Sports</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">HealthThe Debate</a></li>
+              <li class="navbar-item"><a href="#" class="nav-link">Vantage</a></li>
+              <li class="navbar-item-search"><a href="#" class="nav-link mx-auto" >Search <i class="fas fa-search"></i></a></li>
+          </ul>
+          
+      </div>
+      <div class="nav-bottom navbar-expand-lg navbar-light bg-light">
+           <div class="navbar-nav">
+           <div class=" container-fluid">
+          <a href="#" class="nav-item px-2 trending">TRENDING</a>
+          <a href="#" class="nav-link px-2 ">DONALD TRUMP</a>
+          <a href="#" class="nav-link px-2">INAUGURATION</a>
+          <a href="#" class="nav-link px-2">JOE BIDEN</a>
+          <a href="#" class="nav-link px-2">CORONAVIRUS</a>
+          <a href="#" class="nav-link px-2">STIMULUS PACKAGE</a>
+          <a href="#" class="nav-link px-2">VACCINE</a>
+          <a href="#" class="nav-link px-2">CAPITOL RIOTS</a>
+          </div>
+          </div>
+      </div>
     </nav>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-      crossorigin="anonymous"
-    ></script>
+    
+
+ 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
   </body>
 </html>

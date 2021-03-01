@@ -4,17 +4,25 @@
   --blue: #3581f4;
   --white: #fff;
 }
-*,
-body {
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-}
+  box-sizing: border-box;
+ }
 
 nav {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.fa-bars {
+  color: rgba(255, 255, 255, 0.6);
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
 }
 .nav-top {
   height: 5rem;
@@ -22,8 +30,15 @@ nav {
   color: var(--white);
   padding: 0;
   display: flex;
+  padding: 0 1.5rem;
   justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+
+.fa-user {
+  display: none;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .left-section h5 {
@@ -37,20 +52,68 @@ nav {
   font-weight: 600;
 }
 
+.fas {
+  display: none;
+}
+
 .subscribe {
+  width: 150px;
   margin-left: 0.5rem;
-  padding: 0.21rem 0.6rem;
+  padding: 0.3rem 0.7rem;
   border-radius: 20px;
   background: #ffe41b;
   border: none;
+  font-weight: bold;
 }
+
 .subscribe a {
   color: black;
-  font-weight: 600;
   text-transform: uppercase;
 }
 
-.navbar-toggler-icon {
-  color: #fff;
-  background: #fff;
+#navbarSupportedContent > ul > li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-middle,
+.nav-bottom {
+  display: flex;
+  padding: 0.5rem;
+  height: 3rem;
+  border-bottom: 1px solid rgb(233, 228, 228);
+  align-items: center;
+}
+
+.navbar-item a {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-item a:hover {
+  color: var(--red);
+}
+
+.nav-link:hover {
+  color: var(--red);
+}
+
+.nav-middle .navbar-item a {
+  border-right: 1px solid rgb(233, 228, 228);
+}
+
+.nav-middle > .navbar-item-search a {
+  color: rgb(161, 159, 159);
+}
+
+.nav-link {
+  display: inline;
+  padding: 0.3rem 0.5rem;
+  font-weight: 900;
+}
+
+.trending {
+  color: black;
+  font-weight: 500;
 }

@@ -1,24 +1,55 @@
 @media screen and (max-width: 780px) {
-  .left-section h5,
+  .fa-user {
+    display: inline;
+    
+  }
   .login {
     display: none;
   }
+ 
+}
 
-  .subscribe {
-    margin-left: 0.5rem;
-    padding: 0.21rem 0.6rem;
-    border: none;
+@media screen and (max-width: 1000px) {
+  .left-section h5,
+  .nav-middle,
+  .nav-bottom {
+    display: none;
   }
+  .nav-link {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .fa-bars {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .subscribe {
+    margin-right: 1rem;
+  }
+
   .subscribe a {
     color: black;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
+    width: 100px;
   }
+
   .middle-section img {
     height: 40px;
     width: 200px;
     position: absolute;
-    top: 20px;
+    top: 7px;
     left: 0;
+  }
+
+  .nav-link {
+    padding: 0.1rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-top {
+    height: 50px;
   }
 }
