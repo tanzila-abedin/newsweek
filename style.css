@@ -101,11 +101,13 @@ nav {
 
 .nav-middle .navbar-item a {
   border-right: 1px solid rgb(233, 228, 228);
+   font-size: 1.2rem;
 }
 
 .nav-middle > .navbar-item-search a {
   color: rgb(161, 159, 159);
-}
+  font-size: 1rem;
+ }
 
 .nav-link {
   display: inline;
@@ -116,4 +118,74 @@ nav {
 .trending {
   color: black;
   font-weight: 500;
+}
+
+/* FOOTER */
+
+.foot-top img {
+  width: 10rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container-footer {
+  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
+  padding: 1rem 2rem;
+}
+
+.bottom-logo {
+  margin-right: 1rem;
+}
+
+.trademark {
+  margin-top: 1rem;
+}
+.social-media a {
+  color: #666666;
+}
+
+.foot-top h6 {
+  color: #666666;
+  font-size: 12px;
+}
+
+.foot-center,
+.foot-bottom,
+.nav-link {
+  color: #666666;
+  font-size: 11px;
+}
+
+.foot-center {
+  padding: 0.5rem;
+}
+
+.nav-item {
+  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
+}
+
+.nav-item a {
+  padding: 0.5rem;
+  color: var(--gray);
+  font-size: 1rem;
+}
+
+strong {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+.foot-center {
+  padding: 0rem 1.5rem;
+  padding-top: 1rem;
+}
+
+.foot-bottom {
+  padding: 0rem 1rem;
+}
+
+/* main */
+
+.main{
+  height: 400px;
 }

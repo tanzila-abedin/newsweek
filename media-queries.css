@@ -1,12 +1,20 @@
+/* Tablet */
 @media screen and (max-width: 780px) {
   .fa-user {
     display: inline;
-    
   }
   .login {
     display: none;
   }
- 
+  .nav-item {
+    border-right: none;
+  }
+  .nav-item a {
+    font-size: 0.9rem;
+  }
+  .nav-middle .navbar-item a {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -45,7 +53,7 @@
   }
 
   .nav-link {
-    padding: 0.1rem 0.5rem;
+    padding: 0.1rem 0.4rem;
     font-size: 0.8rem;
   }
 
