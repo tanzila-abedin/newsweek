@@ -1,0 +1,56 @@
+:root {
+  --red: #ec521e;
+  --gray: #666666;
+  --blue: #3581f4;
+  --white: #fff;
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.nav-top {
+  height: 5rem;
+  background: var(--red);
+  color: var(--white);
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section h5 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.login {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.subscribe {
+  margin-left: 0.5rem;
+  padding: 0.21rem 0.6rem;
+  border-radius: 20px;
+  background: #ffe41b;
+  border: none;
+}
+.subscribe a {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+  background: #fff;
+}
