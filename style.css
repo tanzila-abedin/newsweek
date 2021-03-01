@@ -1,9 +1,10 @@
 :root {
   --red: #ec521e;
-  --gray: #666666;
+  --gray: #666;
   --blue: #3581f4;
   --white: #fff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
- }
+}
 
 nav {
   font-family: "Roboto Condensed", sans-serif;
@@ -24,14 +25,13 @@ nav {
   top: 15px;
   right: 20px;
 }
+
 .nav-top {
   height: 5rem;
   background: var(--red);
   color: var(--white);
-  padding: 0;
+  padding: 0 1rem;
   display: flex;
-  padding: 0 1.5rem;
-  justify-content: space-between;
   align-items: center;
   justify-content: space-between;
 }
@@ -64,9 +64,6 @@ nav {
   background: #ffe41b;
   border: none;
   font-weight: bold;
-}
-
-.subscribe a {
   color: black;
   text-transform: uppercase;
 }
@@ -76,10 +73,16 @@ nav {
   justify-content: flex-start;
 }
 
-.nav-middle,
+.dl,
+ol,
+ul {
+  margin-bottom: 0;
+}
+
+.nav-middle ul,
 .nav-bottom {
   display: flex;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
   height: 3rem;
   border-bottom: 1px solid rgb(233, 228, 228);
   align-items: center;
@@ -91,8 +94,31 @@ nav {
   font-weight: bold;
 }
 
+.social-media a {
+  color: #666;
+}
+
+.nav-item a {
+  padding: 0.5rem;
+  color: var(--gray);
+  font-size: 1rem;
+}
+
 .navbar-item a:hover {
   color: var(--red);
+}
+
+.nav-link {
+  display: inline;
+  padding: 0.3rem 0.5rem;
+  font-weight: 900;
+}
+
+.foot-center,
+.foot-bottom,
+.nav-link {
+  color: #666;
+  font-size: 1rem;
 }
 
 .nav-link:hover {
@@ -101,18 +127,12 @@ nav {
 
 .nav-middle .navbar-item a {
   border-right: 1px solid rgb(233, 228, 228);
-   font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .nav-middle > .navbar-item-search a {
   color: rgb(161, 159, 159);
   font-size: 1rem;
- }
-
-.nav-link {
-  display: inline;
-  padding: 0.3rem 0.5rem;
-  font-weight: 900;
 }
 
 .trending {
@@ -141,51 +161,32 @@ nav {
 .trademark {
   margin-top: 1rem;
 }
-.social-media a {
-  color: #666666;
-}
 
 .foot-top h6 {
-  color: #666666;
+  color: #666;
   font-size: 12px;
-}
-
-.foot-center,
-.foot-bottom,
-.nav-link {
-  color: #666666;
-  font-size: 11px;
-}
-
-.foot-center {
-  padding: 0.5rem;
 }
 
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
 
-.nav-item a {
-  padding: 0.5rem;
-  color: var(--gray);
-  font-size: 1rem;
-}
-
 strong {
   font-size: 1rem;
   padding-right: 10px;
 }
+
 .foot-center {
-  padding: 0rem 1.5rem;
+  padding: 0 1.5rem;
   padding-top: 1rem;
 }
 
 .foot-bottom {
-  padding: 0rem 1rem;
+  padding: 0 1rem;
 }
 
 /* main */
 
-.main{
+.main {
   height: 400px;
 }

@@ -1,10 +1,12 @@
-![Desktop](newsweek/img/desktop.png)
-![Tablet](newsweek/img/tablet.png)
-![Mobile](newsweek/img/mobile.png)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Newsweek Milestone 1
 
 > Building Newsweek's page clone using CSS framework (Bootstrap) and media quesries
+
+![Desktop](./img/desktop.png)
+![Tablet](./img/img/tablet.png)
+![Mobile](./img/img/mobile.png)
 
 ## Built With
 

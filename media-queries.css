@@ -3,15 +3,19 @@
   .fa-user {
     display: inline;
   }
+
   .login {
     display: none;
   }
+
   .nav-item {
     border-right: none;
   }
+
   .nav-item a {
     font-size: 0.9rem;
   }
+
   .nav-middle .navbar-item a {
     font-size: 0.8rem;
   }
@@ -23,6 +27,7 @@
   .nav-bottom {
     display: none;
   }
+
   .nav-link {
     padding: 0.3rem 0.5rem;
   }
