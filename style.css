@@ -21,21 +21,18 @@ nav {
 
 .fa-bars {
   color: rgba(255, 255, 255, 0.6);
-  width: 40px;
-
 }
 
 .nav-top {
   display: flex;
   justify-content: space-between;
-  height: 5rem;
+  height: 5.5rem;
   background: var(--red);
   color: var(--white);
   align-items: center;
 }
 
 .fa-user {
-  display: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -50,14 +47,14 @@ nav {
   font-weight: 600;
 }
 
-.fas {
-  display: none;
+.fa-user,
+.fa-bars {
+  visibility: hidden;
 }
 
 .subscribe {
   width: 150px;
-  
-  padding: 0.3rem 0.7rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 20px;
   background: #ffe41b;
   border: none;
@@ -86,6 +83,10 @@ ul {
   align-items: center;
 }
 
+ul > li > a {
+  color: #666;
+}
+
 .navbar-item a {
   color: black;
   font-size: 0.5rem;
@@ -94,14 +95,6 @@ ul {
 
 .social-media a {
   color: #666;
-}
-
-div.nav-middle > ul > li:
-
-
-
-.navbar-item a:hover {
-  color: var(--red);
 }
 
 .nav-link {
@@ -135,7 +128,6 @@ div.nav-middle > ul > li:
   color: black;
   font-weight: 500;
   font-size: 1rem;
-
 }
 
 /* FOOTER */
@@ -165,22 +157,19 @@ div.nav-middle > ul > li:
   font-size: 12px;
 }
 
-.nav-item {
-  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
+.foot-center {
+  border-top: 0.2px solid rgb(161, 160, 160, 0.6);
+  padding: 0 1.5rem;
+  padding-top: 1rem;
 }
 
-ul >li >a{
-  color: #666;
+.nav-item {
+  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
 
 strong {
   font-size: 1rem;
   padding-right: 10px;
-}
-
-.foot-center {
-  padding: 0 1.5rem;
-  padding-top: 1rem;
 }
 
 .foot-bottom {

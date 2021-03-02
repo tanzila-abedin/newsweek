@@ -1,9 +1,23 @@
-/* Tablet */
-@media screen and (max-width: 780px) {
-  .fa-user {
-    display: inline;
+/* Phone */
+
+@media screen and (max-width: 380px) {
+  .subscribe {
+    width: 70px;
+    font-size: 0.7rem;
   }
 
+  .subscribe-text {
+    font-size: 0.5rem;
+  }
+
+  .nav-top {
+    height: 500px;
+  }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 780px) {
   .login {
     display: none;
   }
@@ -19,6 +33,11 @@
   .nav-middle .navbar-item a {
     font-size: 0.8rem;
   }
+
+  .fa-user,
+  .fa-bars {
+    visibility: visible;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -31,22 +50,11 @@
   .nav-link {
     padding: 0.3rem 0.5rem;
   }
-
-  .fa-bars {
-    display: inline-block;
-  }
 }
 
 @media screen and (max-width: 1200px) {
   .subscribe {
-    margin-right: 1rem;
-  }
-
-  .subscribe a {
-    color: black;
-    font-weight: 300;
-    text-transform: uppercase;
-    width: 100px;
+    width: 110px;
   }
 
   .middle-section img {
@@ -61,10 +69,12 @@
     padding: 0.1rem 0.4rem;
     font-size: 0.8rem;
   }
+
   .trending {
     font-size: 0.8rem;
   }
+
   .nav-top {
-    height: 50px;
+    height: 70px;
   }
 }
