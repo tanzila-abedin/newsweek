@@ -14,8 +14,15 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0 auto;
+  min-width: 95%;
+  
+}
+
 nav {
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto; 
 }
 
 .fa-bars {
@@ -30,10 +37,8 @@ nav {
   height: 5rem;
   background: var(--red);
   color: var(--white);
-  padding: 0 1rem;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+
 }
 
 .fa-user {
