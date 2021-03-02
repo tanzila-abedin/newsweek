@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); 
+
 :root {
   --red: #ec521e;
   --gray: #666;
@@ -22,7 +24,6 @@ nav {
 .fa-bars {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
-
 }
 
 .nav-top {
@@ -56,7 +57,7 @@ nav {
 
 .subscribe {
   width: 150px;
-  
+
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   background: #ffe41b;
@@ -96,10 +97,6 @@ ul {
   color: #666;
 }
 
-div.nav-middle > ul > li:
-
-
-
 .navbar-item a:hover {
   color: var(--red);
 }
@@ -135,7 +132,6 @@ div.nav-middle > ul > li:
   color: black;
   font-weight: 500;
   font-size: 1rem;
-
 }
 
 /* FOOTER */
@@ -169,7 +165,7 @@ div.nav-middle > ul > li:
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
 
-ul >li >a{
+ul > li > a {
   color: #666;
 }
 
@@ -192,3 +188,38 @@ strong {
 .main {
   height: 400px;
 }
+
+/* Middle section */
+
+.column2-middle-section,
+
+.more-stories p {
+  
+  font-size: 11px;
+  font-weight: 700;
+  color: rgb(77, 76, 76);
+}
+
+
+.p-heading {
+  padding-left: 0;
+}
+.column2-middle-section- img {
+  width: 70px;
+}
+
+.middle-section-card img {
+  width: 80px;
+  height: 70px;
+}
+
+.more-stories-row {
+  border-top: 1px solid  rgb(161, 160, 160, 1);
+  padding-top: 0.5rem;
+}
+
+.middle-section-card-p  a{
+  color: black;
+  font-size: 12px;
+}
+
