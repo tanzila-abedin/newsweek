@@ -22,7 +22,6 @@ nav {
 .fa-bars {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
-
 }
 
 .nav-top {
@@ -56,7 +55,6 @@ nav {
 
 .subscribe {
   width: 150px;
-  
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   background: #ffe41b;
@@ -96,10 +94,6 @@ ul {
   color: #666;
 }
 
-div.nav-middle > ul > li:
-
-
-
 .navbar-item a:hover {
   color: var(--red);
 }
@@ -126,6 +120,10 @@ div.nav-middle > ul > li:
   font-size: 1rem;
 }
 
+ul > li > a {
+  color: #666;
+}
+
 .nav-middle > .navbar-item-search a {
   color: rgb(161, 159, 159);
   font-size: 0.7rem;
@@ -135,7 +133,6 @@ div.nav-middle > ul > li:
   color: black;
   font-weight: 500;
   font-size: 1rem;
-
 }
 
 /* FOOTER */
@@ -167,10 +164,6 @@ div.nav-middle > ul > li:
 
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
-}
-
-ul >li >a{
-  color: #666;
 }
 
 strong {
