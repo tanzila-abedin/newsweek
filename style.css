@@ -84,6 +84,10 @@ ul {
   align-items: center;
 }
 
+ul > li > a {
+  color: #666;
+}
+
 .navbar-item a {
   color: black;
   font-size: 0.5rem;
@@ -118,10 +122,6 @@ ul {
 .nav-middle .navbar-item a {
   border-right: 1px solid rgb(233, 228, 228);
   font-size: 1rem;
-}
-
-ul > li > a {
-  color: #666;
 }
 
 .nav-middle > .navbar-item-search a {
