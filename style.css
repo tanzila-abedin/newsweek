@@ -14,31 +14,24 @@
   box-sizing: border-box;
 }
 
-body{
-  margin: 0 auto;
-  min-width: 95%;
-  
-}
-
 nav {
   font-family: "Roboto Condensed", sans-serif;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .fa-bars {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
-  position: absolute;
-  top: 15px;
-  right: 20px;
+
 }
 
 .nav-top {
+  display: flex;
+  justify-content: space-between;
   height: 5rem;
   background: var(--red);
   color: var(--white);
   align-items: center;
-
 }
 
 .fa-user {
@@ -63,7 +56,7 @@ nav {
 
 .subscribe {
   width: 150px;
-  margin-left: 0.5rem;
+  
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   background: #ffe41b;
@@ -95,7 +88,7 @@ ul {
 
 .navbar-item a {
   color: black;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
 }
 
@@ -103,11 +96,9 @@ ul {
   color: #666;
 }
 
-.nav-item a {
-  padding: 0.5rem;
-  color: var(--gray);
-  font-size: 1rem;
-}
+div.nav-middle > ul > li:
+
+
 
 .navbar-item a:hover {
   color: var(--red);
@@ -132,17 +123,19 @@ ul {
 
 .nav-middle .navbar-item a {
   border-right: 1px solid rgb(233, 228, 228);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .nav-middle > .navbar-item-search a {
   color: rgb(161, 159, 159);
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .trending {
   color: black;
   font-weight: 500;
+  font-size: 1rem;
+
 }
 
 /* FOOTER */
@@ -174,6 +167,10 @@ ul {
 
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
+}
+
+ul >li >a{
+  color: #666;
 }
 
 strong {
