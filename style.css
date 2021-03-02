@@ -206,6 +206,9 @@ strong {
   width: 100%;
  
 }
+.photobox-no-p{
+  margin:0;
+}
 
 .photobox {
 
@@ -357,7 +360,17 @@ strong {
   padding-top: 0.5rem;
 }
 
+.debate-border-b{
+  border-bottom: 2px solid rgb(161, 160, 160, 1);
+  padding-top: 0.5rem;
+  
+}
 .middle-section-card-p a {
   color: black;
   font-size: 12px;
+}
+
+.div.middle-section-card-p > a
+{
+  line-height: 10px !important;;
 }
