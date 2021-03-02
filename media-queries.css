@@ -1,0 +1,80 @@
+/* Phone */
+
+@media screen and (max-width: 380px) {
+  .subscribe {
+    width: 70px;
+    font-size: 0.7rem;
+  }
+
+  .subscribe-text {
+    font-size: 0.5rem;
+  }
+
+  .nav-top {
+    height: 500px;
+  }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 780px) {
+  .login {
+    display: none;
+  }
+
+  .nav-item {
+    border-right: none;
+  }
+
+  .nav-item a {
+    font-size: 0.9rem;
+  }
+
+  .nav-middle .navbar-item a {
+    font-size: 0.8rem;
+  }
+
+  .fa-user,
+  .fa-bars {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .left-section h5,
+  .nav-middle,
+  .nav-bottom {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subscribe {
+    width: 110px;
+  }
+
+  .middle-section img {
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+  }
+
+  .nav-link {
+    padding: 0.1rem 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .trending {
+    font-size: 0.8rem;
+  }
+
+  .nav-top {
+    height: 70px;
+  }
+}

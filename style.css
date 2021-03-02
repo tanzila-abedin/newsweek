@@ -1,0 +1,183 @@
+:root {
+  --red: #ec521e;
+  --gray: #666;
+  --blue: #3581f4;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+}
+
+.fa-bars {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  height: 5.5rem;
+  background: var(--red);
+  color: var(--white);
+  align-items: center;
+}
+
+.fa-user {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.left-section h5 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.login {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.fa-user,
+.fa-bars {
+  visibility: hidden;
+}
+
+.subscribe {
+  width: 150px;
+  padding: 0.3rem 0.5rem;
+  border-radius: 20px;
+  background: #ffe41b;
+  border: none;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+#navbarSupportedContent > ul > li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dl,
+ol,
+ul {
+  margin-bottom: 0;
+}
+
+.nav-middle ul,
+.nav-bottom {
+  display: flex;
+  padding: 0 0.5rem;
+  height: 3rem;
+  border-bottom: 1px solid rgb(233, 228, 228);
+  align-items: center;
+}
+
+ul > li > a {
+  color: #666;
+}
+
+.navbar-item a {
+  color: black;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.social-media a {
+  color: #666;
+}
+
+.nav-link {
+  display: inline;
+  padding: 0.3rem 0.5rem;
+  font-weight: 900;
+}
+
+.foot-center,
+.foot-bottom,
+.nav-link {
+  color: #666;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: var(--red);
+}
+
+.nav-middle .navbar-item a {
+  border-right: 1px solid rgb(233, 228, 228);
+  font-size: 1rem;
+}
+
+.nav-middle > .navbar-item-search a {
+  color: rgb(161, 159, 159);
+  font-size: 0.7rem;
+}
+
+.trending {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+
+.foot-top img {
+  width: 10rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container-footer {
+  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
+  padding: 1rem 2rem;
+}
+
+.bottom-logo {
+  margin-right: 1rem;
+}
+
+.trademark {
+  margin-top: 1rem;
+}
+
+.foot-top h6 {
+  color: #666;
+  font-size: 12px;
+}
+
+.foot-center {
+  border-top: 0.2px solid rgb(161, 160, 160, 0.6);
+  padding: 0 1.5rem;
+  padding-top: 1rem;
+}
+
+.nav-item {
+  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
+}
+
+strong {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.foot-bottom {
+  padding: 0 1rem;
+}
+
+/* main */
+
+.main {
+  height: 400px;
+}
