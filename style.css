@@ -39,6 +39,7 @@ a:hover {
   background: var(--red);
   color: var(--white);
   align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .login {
@@ -71,6 +72,7 @@ ul {
   height: 3rem;
   border-bottom: 1px solid rgb(233, 228, 228);
   align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .navbar-item a {
