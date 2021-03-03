@@ -28,10 +28,8 @@ a:hover {
 .fa-bars,
 .fa-user {
   color: rgba(255, 255, 255, 0.6);
-
   width: 40px;
   display: none;
-
 }
 
 .nav-top {
@@ -51,7 +49,6 @@ a:hover {
 .left-section h5 {
   font-size: 1rem;
   font-weight: 300;
-
 }
 
 .login {
@@ -60,11 +57,9 @@ a:hover {
   font-weight: 600;
 }
 
-
 .subscribe {
   width: 150px;
   padding: 0.3rem 0.7rem;
-
   border-radius: 20px;
   background: #ffe41b;
   border: none;
@@ -89,10 +84,6 @@ ul {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-ul > li > a {
-  color: #666;
-}
-
 .navbar-item a {
   color: black;
   font-size: 0.5rem;
@@ -103,7 +94,6 @@ ul > li > a {
   color: black;
   font-size: 12px;
 }
-
 
 .navbar-item a:hover {
   color: var(--red);
@@ -125,7 +115,6 @@ ul > li > a {
   font-size: 0.7rem;
 }
 
-
 .trending {
   color: black;
   font-weight: 500;
@@ -144,12 +133,6 @@ ul > li > a {
 .container-footer {
   border-bottom: 1px solid rgba(235, 231, 231, 0.63);
   padding: 1rem 2rem;
-}
-
-/* main */
-
-.main {
-  height: 400px;
 }
 
 /* featured story */
@@ -184,7 +167,6 @@ img {
   color: rgb(77, 76, 76);
 }
 
-
 .middle-section-card img {
   width: 90px;
   height: 80px;
@@ -194,19 +176,10 @@ img {
 .more-stories-row {
   border-top: 1px solid rgba(179, 177, 177, 0.603);
   padding: 0.5rem 0;
-
-.foot-center {
-  border-top: 0.2px solid rgb(161, 160, 160, 0.6);
-  padding: 0 1.5rem;
-  padding-top: 1rem;
-}
-
-.nav-item {
-  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
-
 }
 
 /* right section */
+
 .debate-border-b {
   border-bottom: 2px solid rgb(161, 160, 160, 1);
   padding: 0.5rem;
@@ -229,14 +202,4 @@ img {
 
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
-
-.foot-bottom {
-  padding: 0 1rem;
-}
-
-/* main */
-
-.main {
-  height: 400px;
-
 }
