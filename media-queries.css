@@ -1,10 +1,12 @@
 
+
 @media screen and (max-width: 453px) {
   .subscribe {
     width: 85px;
     font-size: 0.7rem;
-    margin-right: 0.5rem;
+    margin-right: 0.5rem;/* Phone */
   }
+
 
   .subscribe-text {
     font-size: 0.5rem;
@@ -17,8 +19,17 @@
 @media screen and (max-width: 780px) {
   .fa-user {
     display: inline;
+
   }
 
+  .nav-top {
+    height: 500px;
+  }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 780px) {
   .login {
     display: none;
   }
@@ -34,6 +45,11 @@
   .nav-middle .navbar-item a {
     font-size: 0.8rem;
   }
+
+  .fa-user,
+  .fa-bars {
+    visibility: visible;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -46,18 +62,16 @@
   .nav-link {
     padding: 0.3rem 0.5rem;
   }
-
-  .fa-bars {
-    display: inline-block;
-  }
 }
 
 @media screen and (max-width: 1200px) {
+
   .subscribe a {
     color: black;
     font-weight: 300;
     text-transform: uppercase;
     width: 100px;
+
   }
 
   .middle-section img {
@@ -78,6 +92,9 @@
   }
 
   .nav-top {
+
     height: 60px;
+
+  
   }
 }
