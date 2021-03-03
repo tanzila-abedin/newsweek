@@ -16,14 +16,11 @@
   box-sizing: border-box;
 }
 
-nav {
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 0 auto;
-}
-
-.fa-bars {
+.fa-bars,
+.fa-user {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
+  display: none;
 }
 
 .nav-top {
@@ -35,29 +32,14 @@ nav {
   align-items: center;
 }
 
-.fa-user {
-  display: none;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.left-section h5 {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.login {
+ .login {
   color: var(--white);
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.fas {
-  display: none;
-}
-
 .subscribe {
   width: 150px;
-
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   background: #ffe41b;
@@ -65,11 +47,6 @@ nav {
   font-weight: bold;
   color: black;
   text-transform: uppercase;
-}
-
-#navbarSupportedContent > ul > li {
-  display: flex;
-  justify-content: flex-start;
 }
 
 .dl,
@@ -93,29 +70,14 @@ ul {
   font-weight: bold;
 }
 
-.social-media a {
-  color: #666;
-}
-
 .navbar-item a:hover {
   color: var(--red);
 }
 
 .nav-link {
   display: inline;
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0.5rem ;
   font-weight: 900;
-}
-
-.foot-center,
-.foot-bottom,
-.nav-link {
-  color: #666;
-  font-size: 1rem;
-}
-
-.nav-link:hover {
-  color: var(--red);
 }
 
 .nav-middle .navbar-item a {
@@ -128,59 +90,21 @@ ul {
   font-size: 0.7rem;
 }
 
-.trending {
-  color: black;
-  font-weight: 500;
-  font-size: 1rem;
-}
-
 /* FOOTER */
 
-.foot-top img {
-  width: 10rem;
-  height: 5rem;
-  padding: 0;
-  margin: 0;
+.foot-center,
+.foot-bottom,
+.nav-link {
+  color: #666;
+  font-size: 1rem;
 }
 
 .container-footer {
   border-bottom: 1px solid rgba(235, 231, 231, 0.63);
-  padding: 1rem 2rem;
-}
-
-.bottom-logo {
-  margin-right: 1rem;
-}
-
-.trademark {
-  margin-top: 1rem;
-}
-
-.foot-top h6 {
-  color: #666;
-  font-size: 12px;
-}
-
-.nav-item {
-  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
 
 ul > li > a {
   color: #666;
-}
-
-strong {
-  font-size: 1rem;
-  padding-right: 10px;
-}
-
-.foot-center {
-  padding: 0 1.5rem;
-  padding-top: 1rem;
-}
-
-.foot-bottom {
-  padding: 0 1rem;
 }
 
 /* main */
@@ -189,33 +113,15 @@ strong {
   height: 400px;
 }
 
-
 /* featured story */
-.featured-item {
-  display: flex;
-  flex-direction: column;
-  
-}
 
 .featured-story h5 {
   color: grey;
   font-weight: bolder;
 }
 
-.photobox img{
+.photobox img {
   width: 100%;
- 
-}
-.photobox-no-p{
-  margin:0;
-}
-
-.photobox {
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 .text {
@@ -265,73 +171,23 @@ strong {
   text-decoration: underline red;
 }
 
-.text-dark-heading{
+.text-dark-heading {
   color: #000000;
 }
 
-.photobox{
+.featured-caption {
   position: relative;
+  width: auto;
+  bottom: 38px;
+  display: inline;
+  background: rgba(255, 255, 255, 0.51);
+  color: var(--red);
 }
 
-.featured-caption{
-position: relative;
-width: auto;
-bottom: 38px;
-display: inline; 
-background: rgba(255, 255, 255, 0.51);
-color: var(--red);
-}
-
-.featured-item-content{
+.featured-item-content {
   border: 1px solid rgb(201, 199, 199);
- 
 }
 
-/* FOOTER */
-
-.foot-top img {
-  width: 10rem;
-  height: 5rem;
-  padding: 0;
-  margin: 0;
-}
-
-.container-footer {
-  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
-  padding: 1rem 2rem;
-}
-
-.bottom-logo {
-  margin-right: 1rem;
-}
-
-.trademark {
-  margin-top: 1rem;
-}
-
-.foot-top h6 {
-  color: #666;
-  font-size: 12px;
-}
-
-.foot-center {
-  border-top: 0.2px solid rgb(161, 160, 160, 0.6);
-  padding: 0 1.5rem;
-  padding-top: 1rem;
-}
-
-.nav-item {
-  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
-}
-
-strong {
-  font-size: 1rem;
-  padding-right: 10px;
-}
-
-.foot-bottom {
-  padding: 0 1rem;
-}
 
 /* Middle section */
 
@@ -360,17 +216,40 @@ strong {
   padding-top: 0.5rem;
 }
 
-.debate-border-b{
+.debate-border-b {
   border-bottom: 2px solid rgb(161, 160, 160, 1);
   padding-top: 0.5rem;
-  
 }
 .middle-section-card-p a {
   color: black;
   font-size: 12px;
 }
 
-.div.middle-section-card-p > a
-{
-  line-height: 10px !important;;
+.div.middle-section-card-p > a {
+  line-height: 10px !important;
+}
+
+
+/* FOOTER */
+
+.foot-top img {
+  width: 10rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container-footer {
+  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
+  padding: 1rem 2rem;
+}
+
+.foot-center {
+  border-top: 0.2px solid rgb(161, 160, 160, 0.6);
+  padding: 0 1.5rem;
+  padding-top: 1rem;
+}
+
+.nav-item {
+  border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
