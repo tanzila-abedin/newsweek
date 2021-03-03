@@ -185,6 +185,151 @@ img {
   padding: 0.5rem;
 }
 
+ /* MAGAZINE */
+
+ .magazine {
+  display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto;
+   column-gap: 20px;
+   border-top: 1px solid rgb(212, 211, 211);
+   padding-top: 10px;
+}
+
+.maga-heading h4 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.magazine-item {
+  padding-top: 17px;
+}
+
+ .magazine-item-first {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .magazine-item-first .maga-text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  display:block;
+  width : 16.3rem;
+  background-color: #f4f5f6;
+  text-align: center;
+  margin-bottom: 0;
+ }
+ 
+.maga-text a {
+  color: black;
+}
+
+.maga-text :hover {
+  background-color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+
+.block-text p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+  display:block;
+  width : 4.3rem;
+  background-color: #ff0b0b;
+  text-align: center;
+  margin-bottom: 0;
+ }
+
+.cover-text a  {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.cover-text h4 a:hover {
+  text-decoration: underline red;
+}
+
+.block-flex {
+ display: flex;
+ flex-direction: row;
+ margin: 3px;
+ padding: 4px;
+}
+
+.block-flex a {
+font-family: "Roboto Condensed", sans-serif;
+font-weight: bold;
+padding: 1rem;
+color: #ff0b0b;
+}
+
+/* EDITORS */
+
+.editor-item {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.editor-photo {
+background-image: url(./img/images.jpeg);
+background-color: silver;
+height: 200px;
+width: 260px;
+background-position: center;
+background-repeat: no-repeat; 
+background-size: cover; 
+position:relative;
+}
+
+.text {
+position: absolute;
+background: rgb(233, 232, 232);
+text-align: center;
+width:4rem;
+top: 94%;
+left: 12.09%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.text a {
+font-weight: bold;
+color: red;
+}
+
+.content h5 a {
+font-family:"Roboto Condensed", sans-serif;
+font-size: 23px;
+color: black;
+text-overflow: wrap;
+font-weight: bold;
+
+}
+
+.content h5 a:hover {
+text-decoration: underline red;
+}
+
+.editors-pick {
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto;
+column-gap: 20px;
+border-top: 1px solid rgb(212, 211, 211);
+padding-top: 10px;
+}
+
+
 /* FOOTER */
 
 .foot-top img {
