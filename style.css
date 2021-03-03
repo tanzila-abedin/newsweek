@@ -130,8 +130,14 @@ ul {
   font-size: 1rem;
 }
 
-.container-footer {
-  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
+.border-bottom{
+  border-bottom: 1px solid rgba(155, 151, 151, 0.63);
+  padding: 1rem 0rem;
+}
+
+.container-footer, 
+.articles {
+  border-bottom: 1px solid rgba(155, 151, 151, 0.63);
   padding: 1rem 2rem;
 }
 
@@ -187,34 +193,7 @@ img {
 
  /* MAGAZINE */
 
- .magazine {
-  display: grid;
-   grid-template-columns: auto auto auto auto;
-   grid-template-rows: auto auto;
-   column-gap: 20px;
-   border-top: 1px solid rgb(212, 211, 211);
-   padding-top: 10px;
-}
-
-.maga-heading h4 {
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-.magazine-item {
-  padding-top: 17px;
-}
-
- .magazine-item-first {
-   display: flex;
-   flex-direction: column;
- }
-
  .magazine-item-first .maga-text {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: bold;
   margin: 0px;
@@ -235,20 +214,21 @@ img {
 }
 
 .block-text p {
-  font-family: "Roboto Condensed", sans-serif;
+  
   font-size: 18px;
   font-weight: bold;
   color: white;
   margin: 0px;
+  padding: 0 5px;
   display:block;
-  width : 4.3rem;
+  width : auto;
   background-color: #ff0b0b;
   text-align: center;
   margin-bottom: 0;
  }
 
 .cover-text a  {
-  font-family: "Roboto Condensed", sans-serif;
+  
   font-size: 16px;
   font-weight: bolder;
   color: #000000;
@@ -274,22 +254,7 @@ color: #ff0b0b;
 
 /* EDITORS */
 
-.editor-item {
-width: 100%;
-display: flex;
-flex-direction: column;
-}
 
-.editor-photo {
-background-image: url(./img/images.jpeg);
-background-color: silver;
-height: 200px;
-width: 260px;
-background-position: center;
-background-repeat: no-repeat; 
-background-size: cover; 
-position:relative;
-}
 
 .text {
 position: absolute;
@@ -315,20 +280,6 @@ text-overflow: wrap;
 font-weight: bold;
 
 }
-
-.content h5 a:hover {
-text-decoration: underline red;
-}
-
-.editors-pick {
-display: grid;
-grid-template-columns: auto auto auto auto;
-grid-template-rows: auto auto;
-column-gap: 20px;
-border-top: 1px solid rgb(212, 211, 211);
-padding-top: 10px;
-}
-
 
 /* FOOTER */
 
