@@ -29,7 +29,7 @@ a:hover {
 .fa-user {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
-  display: none;
+  visibility: hidden;
 }
 
 .nav-top {
@@ -144,7 +144,7 @@ ul {
 /* featured story */
 
 .fix-image{
-height: 180px;
+height: 200px;
 width: auto;
 }
 img {
@@ -252,7 +252,6 @@ img {
 .block-flex a {
 font-family: "Roboto Condensed", sans-serif;
 font-weight: bold;
-padding: 1rem;
 color: #ff0b0b;
 }
 
@@ -278,7 +277,7 @@ color: red;
 
 .content h5 a {
 font-family:"Roboto Condensed", sans-serif;
-font-size: 23px;
+font-size: 17px;
 color: black;
 text-overflow: wrap;
 font-weight: bold;

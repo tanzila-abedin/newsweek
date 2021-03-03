@@ -12,19 +12,12 @@
 }
 
 /* Tablet */
+
 @media screen and (max-width: 780px) {
   .fa-user {
     display: inline;
   }
-
-  .nav-top {
-    height: 500px;
-  }
-}
-
-/* Tablet */
-
-@media screen and (max-width: 780px) {
+  
   .login {
     display: none;
   }
@@ -44,6 +37,10 @@
   .fa-user,
   .fa-bars {
     visibility: visible;
+  }
+
+  h4 > a{
+    font: 10px  ;
   }
 }
 
