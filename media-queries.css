@@ -9,8 +9,6 @@
   .subscribe-text {
     font-size: 0.5rem;
   }
-
-  
 }
 
 
@@ -55,8 +53,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  
-
   .subscribe a {
     color: black;
     font-weight: 300;
@@ -76,9 +72,11 @@
     padding: 0.1rem 0.4rem;
     font-size: 0.8rem;
   }
+
   .trending {
     font-size: 0.8rem;
   }
+
   .nav-top {
     height: 60px;
   }
