@@ -143,6 +143,10 @@ ul {
 
 /* featured story */
 
+.fix-image{
+height: 180px;
+width: auto;
+}
 img {
   width: 100%;
 }
@@ -194,11 +198,11 @@ img {
  /* MAGAZINE */
 
  .magazine-item-first .maga-text {
-  font-size: 18px;
+  
   font-weight: bold;
+  font-size: 17px;
   margin: 0px;
   display:block;
-  width : 16.3rem;
   background-color: #f4f5f6;
   text-align: center;
   margin-bottom: 0;
