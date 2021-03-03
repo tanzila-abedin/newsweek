@@ -1,13 +1,20 @@
-/* Phone */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 453px) {
   .subscribe {
-    width: 70px;
+    width: 85px;
     font-size: 0.7rem;
+    margin-right: 0.5rem;/* Phone */
   }
 
   .subscribe-text {
     font-size: 0.5rem;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 780px) {
+  .fa-user {
+    display: inline;
   }
 
   .nav-top {
@@ -53,8 +60,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .subscribe {
-    width: 110px;
+  .subscribe a {
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 100px;
   }
 
   .middle-section img {
@@ -75,6 +85,6 @@
   }
 
   .nav-top {
-    height: 70px;
+    height: 60px;
   }
 }
