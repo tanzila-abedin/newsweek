@@ -302,3 +302,16 @@ font-weight: bold;
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
 }
+
+/* newsletter */
+
+
+.bg-secondary{
+background: rgba(175, 174, 174, 0.16);
+padding: 10px;
+}
+
+.img-starting{
+  width: auto;
+height: 100%;
+}
