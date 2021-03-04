@@ -27,7 +27,7 @@
   }
 
   h4 > a {
-    font: 10px;
+    font-size: 10px;
   }
 
   .nav-item a {
@@ -42,7 +42,6 @@
   .fa-bars {
     visibility: visible;
   }
-
 }
 
 @media screen and (max-width: 1000px) {

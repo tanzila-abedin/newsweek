@@ -124,7 +124,6 @@ ul {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   color: black;
-  text-overflow: wrap;
   font-weight: bold;
 }
 
@@ -256,7 +255,6 @@ img {
   background-color: #ff0b0b;
   text-align: center;
 }
-
 
 .cover-text h4 a:hover {
   text-decoration: underline red;
