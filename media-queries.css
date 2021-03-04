@@ -26,6 +26,10 @@
     border-right: none;
   }
 
+  h4 > a {
+    font: 10px;
+  }
+
   .nav-item a {
     font-size: 0.9rem;
   }
@@ -39,9 +43,6 @@
     visibility: visible;
   }
 
-  h4 > a {
-    font: 10px;
-  }
 }
 
 @media screen and (max-width: 1000px) {
