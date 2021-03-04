@@ -17,7 +17,7 @@
   .fa-user {
     display: inline;
   }
-  
+
   .login {
     display: none;
   }
@@ -39,19 +39,12 @@
     visibility: visible;
   }
 
-  h4 > a{
-    font: 10px  ;
+  h4 > a {
+    font: 10px;
   }
-  
-
- 
 }
 
-
-
 @media screen and (max-width: 1000px) {
-  
-    
   .left-section h5,
   .nav-middle,
   .nav-bottom {
