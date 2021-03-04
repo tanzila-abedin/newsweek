@@ -7,7 +7,9 @@
   --white: #fff;
 }
 
-
+html{
+  font-size: 0.9rem;
+}
 
 ul > li > a {
   color: #666;
@@ -221,26 +223,18 @@ img {
 }
 
 .block-text p {
-  
   font-size: 13px;
   font-weight: bold;
   color: white;
-  margin: 0px;
-  padding: 0 5px;
+   padding: 0 5px;
   display:block;
-  width : auto;
   background-color: #ff0b0b;
   text-align: center;
-  margin-bottom: 0;
- }
-
- .block-text p a{
-   font-size: 13px;
+  
  }
 
 .cover-text a  {
-  
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bolder;
   color: #000000;
 }
