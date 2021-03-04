@@ -217,7 +217,8 @@ img {
   display: block;
 }
 
-.more-stories-row {
+.more-stories-row,
+.border-border-top {
   border-top: 1px solid rgba(179, 177, 177, 0.603);
   padding: 0.5rem 0;
 }
@@ -230,6 +231,11 @@ img {
 }
 
 /* MAGAZINE */
+
+.n-logo {
+  width: 25px;
+  height: 25px;
+}
 
 .magazine-item-first .maga-text {
   font-weight: bold;
@@ -265,6 +271,12 @@ img {
   flex-direction: row;
   margin: 3px;
   padding: 4px;
+}
+
+.block-flex-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* EDITORS */
