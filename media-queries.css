@@ -12,25 +12,22 @@
 }
 
 /* Tablet */
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 767px) {
   .fa-user {
     display: inline;
   }
 
-  .nav-top {
-    height: 500px;
-  }
-}
-
-/* Tablet */
-
-@media screen and (max-width: 780px) {
   .login {
     display: none;
   }
 
   .nav-item {
     border-right: none;
+  }
+
+  h4 > a {
+    font-size: 10px;
   }
 
   .nav-item a {

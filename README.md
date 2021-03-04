@@ -38,13 +38,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1** Tanzila
 
-- GitHub: [@tanzila-ebedines](https://github.com/githubhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@tanzila-abedin](https://github.com/tanzila-abedin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
 
 👤 **Author2** Shoira
 
-- GitHub: [@shoirata](https://github.com/githubhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@shoirata](https://github.com/ShoiraTa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122)
 
 ## 🤝 Contributing
 

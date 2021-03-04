@@ -7,6 +7,10 @@
   --white: #fff;
 }
 
+html {
+  font-size: 0.9rem;
+}
+
 ul > li > a {
   color: #666;
 }
@@ -29,7 +33,7 @@ a:hover {
 .fa-user {
   color: rgba(255, 255, 255, 0.6);
   width: 40px;
-  display: none;
+  visibility: hidden;
 }
 
 .nav-top {
@@ -84,6 +88,21 @@ ul {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.maga-text a {
+  color: black;
+}
+
+.block-flex a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #ff0b0b;
+}
+
+.text a {
+  font-weight: bold;
+  color: red;
+}
+
 .navbar-item a {
   color: black;
   font-size: 0.5rem;
@@ -93,6 +112,19 @@ ul {
 .middle-section-card-p a {
   color: black;
   font-size: 12px;
+}
+
+.cover-text a {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.content h5 a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
 }
 
 .navbar-item a:hover {
@@ -107,7 +139,7 @@ ul {
 
 .nav-middle .navbar-item a {
   border-right: 1px solid rgb(233, 228, 228);
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav-middle > .navbar-item-search a {
@@ -130,12 +162,23 @@ ul {
   font-size: 1rem;
 }
 
-.container-footer {
-  border-bottom: 1px solid rgba(235, 231, 231, 0.63);
+.border-bottom {
+  border-bottom: 1px solid rgba(155, 151, 151, 0.63);
+  padding: 1rem 0;
+}
+
+.container-footer,
+.articles {
+  border-bottom: 1px solid rgba(155, 151, 151, 0.63);
   padding: 1rem 2rem;
 }
 
 /* featured story */
+
+.fix-image {
+  height: 200px;
+  width: auto;
+}
 
 img {
   width: 100%;
@@ -148,13 +191,14 @@ img {
 .featured-caption {
   position: relative;
   width: auto;
-  bottom: 27px;
+  bottom: 25px;
   display: inline;
-  background: rgba(255, 255, 255, 0.51);
+  background: rgba(255, 255, 255, 0.808);
   color: var(--red);
 }
 
-.featured-item-border {
+.featured-item-border,
+.forms-container-starting {
   border: 1px solid rgb(201, 199, 199);
 }
 
@@ -169,11 +213,12 @@ img {
 
 .middle-section-card img {
   width: 90px;
-  height: 80px;
+  height: 70px;
   display: block;
 }
 
-.more-stories-row {
+.more-stories-row,
+.border-border-top {
   border-top: 1px solid rgba(179, 177, 177, 0.603);
   padding: 0.5rem 0;
 }
@@ -183,6 +228,68 @@ img {
 .debate-border-b {
   border-bottom: 2px solid rgb(161, 160, 160, 1);
   padding: 0.5rem;
+}
+
+/* MAGAZINE */
+
+.n-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.magazine-item-first .maga-text {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0;
+  display: block;
+  background-color: #f4f5f6;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.maga-text :hover {
+  background-color: rgb(206, 206, 206);
+  text-decoration: none;
+}
+
+.block-text p {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 0 5px;
+  display: block;
+  background-color: #ff0b0b;
+  text-align: center;
+}
+
+.cover-text h4 a:hover {
+  text-decoration: underline red;
+}
+
+.block-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+  padding: 4px;
+}
+
+.block-flex-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* EDITORS */
+
+.text {
+  position: absolute;
+  background: rgb(233, 232, 232);
+  text-align: center;
+  width: 4rem;
+  top: 94%;
+  left: 12.09%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /* FOOTER */
@@ -202,4 +309,75 @@ img {
 
 .nav-item {
   border-right: 0.2px solid rgb(161, 160, 160, 0.6);
+}
+
+/* newsletter */
+
+.bg-secondary {
+  background: rgba(175, 174, 174, 0.16);
+  padding: 10px;
+}
+
+.img-starting {
+  width: auto;
+  height: 100%;
+}
+
+.img-subscribe-1 {
+  position: relative;
+  width: 100px;
+}
+
+.img-subscribe {
+  position: absolute;
+  bottom: 27px;
+  right: 40px;
+  display: inline;
+  width: 100px;
+}
+
+.block-text {
+  margin-right: 4px;
+}
+
+.subscribe-block .news-letter .news-letter-img {
+  width: 48%;
+  height: 290px;
+  max-height: 100%;
+  max-width: 191px;
+  position: relative;
+}
+
+.subscribe-block .news-letter .news-letter-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subscribe-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-sub {
+  width: 170px;
+  height: 170px;
+}
+
+.news-letter-img-mob {
+  background: url("./img/starting5-homepage.png");
+  height: 150px;
+  background-position: center;
+}
+
+#smFormGroupInput {
+  height: 32px;
+  width: 120px;
+}
+
+.subscribe-section-card-s {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
