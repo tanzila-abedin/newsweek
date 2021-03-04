@@ -26,6 +26,10 @@
     border-right: none;
   }
 
+  h4 > a {
+    font-size: 10px;
+  }
+
   .nav-item a {
     font-size: 0.9rem;
   }
@@ -34,12 +38,11 @@
     font-size: 0.8rem;
   }
 
-  
-.fa-user,
+
+  .fa-user,
   .fa-bars {
     visibility: visible;
   }
-  
 }
 
 @media screen and (max-width: 1000px) {
