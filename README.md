@@ -4,8 +4,7 @@
 
 > Building Newsweek's page clone using CSS framework (Bootstrap) and media quesries
 
-![Desktop](./img/desktop.png)
-
+![Desktop](./img/WEB-full-page.png)
 ## Built With
 
 - HTML, CSS
