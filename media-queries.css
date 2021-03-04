@@ -34,14 +34,12 @@
     font-size: 0.8rem;
   }
 
-  .fa-user,
+  
+.fa-user,
   .fa-bars {
     visibility: visible;
   }
-
-  h4 > a {
-    font: 10px;
-  }
+  
 }
 
 @media screen and (max-width: 1000px) {
